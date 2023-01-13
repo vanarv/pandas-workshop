@@ -7,7 +7,7 @@ import sys
 
 OK = '\x1b[42m[ OK ]\x1b[0m'
 FAIL = '\x1b[41m[FAIL]\x1b[0m'
-MIN_PYTHON_VERSION, MAX_PYTHON_VERSION = Version('3.8.0'), Version('3.10.2')
+MIN_PYTHON_VERSION, MAX_PYTHON_VERSION = Version('3.8.0'), Version('3.10.9')
 
 
 def run_env_check():
